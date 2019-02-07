@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+he most important nodeType properties are:
+
+Node	Type	Example
+ELEMENT_NODE	1	<h1 class="heading">W3Schools</h1>
+ATTRIBUTE_NODE	2	 class = "heading" (deprecated)
+TEXT_NODE	3	W3Schools
+COMMENT_NODE	8	<!-- This is a comment -->
+DOCUMENT_NODE	9	The HTML document itself (the parent of <html>)
+DOCUMENT_TYPE_NODE	10	<!Doctype html>
+
+
+<h1 id="id01">My First Page</h1>
+<p id="id02"></p>
+
+<script>
+document.getElementById("id02").innerHTML = document.getElementById("id01").nodeType;
+</script>
+
+</body>
+</html>
